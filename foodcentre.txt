@@ -1,0 +1,50 @@
+package pack.com;
+
+import java.util.Scanner;
+
+public class FoodCentre {
+
+	public static void main(String[] args) {
+		int choice;
+		float tea,coffee,quantity,amount;
+Scanner sc=new Scanner(System.in);
+amount=sc.nextFloat();
+
+        System.out.println("MENU");
+		System.out.println("1.tea=Rs.10");
+		tea=sc.nextFloat();
+		System.out.println("2.coffee=Rs.20");
+		coffee=sc.nextFloat();
+		System.out.println("please enter your choice");
+		choice=sc.nextInt();
+		System.out.println("Enter quantity:");
+		quantity=sc.nextFloat();
+		
+		switch(choice) {
+		case 1:if (quantity>0){
+			amount=tea*quantity;
+			}
+		System.out.println("The amount of tea is "+amount);
+		}
+		
+			
+			
+		
+					
+			
+		
+		
+		
+		}
+		
+	
+
+
+
+		
+		
+		
+
+	}
+
+

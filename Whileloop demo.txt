@@ -1,0 +1,4 @@
+print numbers 1 to 100
+print numbers 100 to 1
+print 1  3  5.......99
+print 2 4 6... 100
